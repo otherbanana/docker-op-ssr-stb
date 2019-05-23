@@ -1,0 +1,14 @@
+[
+    {
+        "d": 0,
+        "enable": 1,
+        "method": "aes-256-cfb",
+        "obfs": "alechy_ml",
+        "passwd": "qwe123",
+        "port": 80,
+        "protocol": "auth_sha1_v4",
+        "transfer_enable": 9007199254740992,
+        "u": 0,
+        "user": "65401"
+    }
+]

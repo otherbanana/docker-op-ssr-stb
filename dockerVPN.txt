@@ -1,0 +1,26 @@
+﻿yum install epel-release -y
+
+yum install docker-io -y
+
+service docker start
+
+docker images
+
+docker pull hub.c.163.com/alechy/dockervpn:4.0
+
+docker images
+
+docker create --name "DockerVPN4.0"  -i -t --cap-add NET_ADMIN --cap-add NET_RAW -p 0.0.0.0:80:80/tcp -p 0.0.0.0:8080:8080/tcp -p 0.0.0.0:53:53/tcp  -p 0.0.0.0:33394:33394/tcp  -p 0.0.0.0:33394:33394/udp  -p 0.0.0.0:80:80/udp -p 0.0.0.0:8080:8080/udp -p 0.0.0.0:53:53/udp hub.c.163.com/alechy/dockervpn:4.0
+
+docker ps -a
+
+docker start 8a
+
+docker logs 8a
+
+
+
+         PassWord : 、
+
+
+连接端口是33394
