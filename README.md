@@ -1,3 +1,3 @@
-# v2ray-yaohuocopy
+# 妖火大佬的脚本
 # op和ssr首头版搭建教程
 # 包含配置模板
